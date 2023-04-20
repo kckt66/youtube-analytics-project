@@ -50,7 +50,10 @@ class Channel:
 
 
     def __add__(self, other):
-        return self.sub_count + other.sub_count
+        if type(other) == Channel:
+            return self.sub_count + other.sub_count
+        else:
+            raise TypeError
 
 
     def __sub__(self, other):
