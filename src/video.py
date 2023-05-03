@@ -1,6 +1,5 @@
 import os
 from googleapiclient.discovery import build
-import json
 
 
 class Video:

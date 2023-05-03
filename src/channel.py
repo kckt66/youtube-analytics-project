@@ -78,4 +78,3 @@ class Channel:
 
     def __eq__(self, other):
         return self.sub_count == other.sub_count
-
