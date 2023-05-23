@@ -1,8 +1,6 @@
 import os
-
-import requests.exceptions
 from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
+
 
 
 class Video:
